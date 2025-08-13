@@ -1,5 +1,5 @@
 # Person Detection System (staff & student recognition)
-## Introduction 
+## :pushpin:Introduction 
 This project is an **AI-powered person detection system** that can identify whether a person in front of the camera is a **staff member** or a **student**.
 It was built using NVIDIA Jetson Nano and the jetson-inference library, with a custom-trained SSD-Mobilenet model.
 
@@ -10,18 +10,18 @@ With such a system, schools can:
 * React faster in case of unauthorized access.
 ___
 ## Project Goals 
-* Train a **custom object detection model** to recognize two categories: staff and student.
-* Deploy the model in real time using the Jetson Nano camera.
-* Provide a step-by-step guide so others can reproduce the project.
+- [x] Train a **custom object detection model** to recognize two categories: staff and student.
+- [x] Deploy the model in real time using the Jetson Nano camera.
+- [x] Provide a step-by-step guide so others can reproduce the project.
 ___
-## Technologies Used 
+## 🛠️Technologies Used 
 * **NVIDIA Jetson Nano**
 * **Python**
 * **Jetson-Inference** library
 * **SSD-Mobilenet** architecture
 * **ONNX** for model export
 ___
-## Dataset Creation
+## 📂Dataset Creation
 1. Navigate to the dataset directory:
 ```
 cd jetson-inference/python/training/detection/ssd/data
@@ -37,7 +37,7 @@ staff
 student
 ```
 ___
-## Capturing Images 
+## :camera:Capturing Images 
 ![](https://ucarecdn.com/5d667588-9938-4e28-a3dc-142198fe589f/-/format/auto/-/preview/800x800/-/quality/lighter/figure%204.jpg)
 1. Run the camera capture tool:
 ```
@@ -87,7 +87,7 @@ detectnet
   /dev/video0
 ```
 ___
-## Demo Video
+## :movie_camera: Demo Video
 A short demo video is availible [here]()
 ___
 **Project by**: Nata
