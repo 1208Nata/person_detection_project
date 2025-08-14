@@ -88,7 +88,7 @@ detectnet
 ```
 ___
 ## :movie_camera: Demo Video
-A short demo video is availible [here]()
+A short demo video is availible [here](https://youtu.be/LIhLjYiLXT8?feature=shared)
 ___
 **Project by**: Nata
 **Platform**: NVIDIA Jetson Nano
